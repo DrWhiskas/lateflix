@@ -4,6 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home/Home';
+import Login from './pages/Login/Login';
 
 
 const root = ReactDOM.createRoot(
@@ -13,7 +14,8 @@ root.render(
 	<React.StrictMode>
 		<HashRouter>
 			<Routes>
-				<Route path="/" element={<Home />} />
+				<Route path="/" element={<Login />} />
+				<Route path="/login" element={<Login />} />
 				<Route path="/home" element={<Home />} />
 			</Routes>
 		</HashRouter>

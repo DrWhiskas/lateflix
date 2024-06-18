@@ -1,0 +1,22 @@
+[
+	{
+        "id": 0,
+		"name": "Maniac",
+		"img": "https://i.pinimg.com/736x/e5/38/c1/e538c16cde561059021c5b473cdbe4a9.jpg"
+	},
+	{
+		"id": 1,
+		"name": "Hellevator",
+		"img": "https://i.pinimg.com/564x/e1/8d/df/e18ddf0452ea4dc804a4261d5e37335d.jpg"
+	},
+	{
+		"id": 2,
+		"name": "God's Menu",
+		"img": "https://i.pinimg.com/736x/4a/47/be/4a47be336ae9167778b1588643c84bc6.jpg"
+	},
+	{
+		"id": 3,
+		"name": "MIROH",
+		"img": "https://i.pinimg.com/originals/fa/0d/30/fa0d309b894c2065548cd85ecc882c2b.jpg"
+	}
+]

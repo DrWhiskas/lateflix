@@ -1,0 +1,62 @@
+.login{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+.login__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.login__title{
+    color: #fff;
+    font-size: 3.5vw;
+}
+.login__account{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    gap: 2rem;
+    transition: all ease-in-out .1s;
+}
+.login__account__user__item:hover .login__account__user__img{
+    border: #fff solid 4px;
+}
+.login__account__user__item:hover .login__account__user__name{
+    color: #fff;
+}
+.login__account__user{
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+.login__account__user__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all ease-in-out .1s;
+}
+.login__account__user__name{
+    transition: all ease-in-out .1s;
+    text-align: center;
+    color: #ffffff8e;
+    font-size: max(1.3vw, 12px);
+}
+.login__btn{
+    background-color: transparent;
+    border: 1px #ffffff8e solid;
+    color: #ffffff8e;
+    padding: 1rem;
+    transition: all ease-in-out .1s;
+    width: 16vw;
+    min-width: 200px;
+    font-size: max(1.3vw, 12px);
+}
+.login__btn:hover{
+    border: 1px #fff solid;
+    color: #fff;
+    cursor: pointer;
+}
