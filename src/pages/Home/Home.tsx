@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Header from '../../components/Header/Header';
 import axios from 'axios';
+import ContentCard from '../../components/ContentCards/ContentCards';
 
 type Item = {
 	_id: string;
@@ -28,6 +29,10 @@ export default function Home() {
 	return (
 		<div>
 			<Header />
+			<ContentCard
+				title='test'
+				imageUrl=''
+			/>
 		</div>
 	);
 }
