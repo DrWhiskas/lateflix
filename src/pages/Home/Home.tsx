@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Header from '../../components/Header/Header';
 import axios from 'axios';
+import CategoryType from '../../components/CategoryType/CategoryType';
 import ContentCard from '../../components/ContentCards/ContentCards';
 
 type Item = {
@@ -29,10 +30,32 @@ export default function Home() {
 	return (
 		<div>
 			<Header />
-			<ContentCard
-				title='test'
-				imageUrl=''
-			/>
+			<CategoryType name="Most Popular">
+				<ContentCard
+					title="Stray Kids"
+					imageUrl="https://images2.alphacoders.com/116/thumb-1920-1167330.jpg"
+				/>
+				<ContentCard
+					title="Stray Kids"
+					imageUrl="https://images2.alphacoders.com/116/thumb-1920-1167330.jpg"
+				/>
+				<ContentCard
+					title="Stray Kids"
+					imageUrl="https://images2.alphacoders.com/116/thumb-1920-1167330.jpg"
+				/>
+				<ContentCard
+					title="Stray Kids"
+					imageUrl="https://images2.alphacoders.com/116/thumb-1920-1167330.jpg"
+				/>
+				<ContentCard
+					title="Stray Kids"
+					imageUrl="https://images2.alphacoders.com/116/thumb-1920-1167330.jpg"
+				/>
+				<ContentCard
+					title="Stray Kids"
+					imageUrl="https://images2.alphacoders.com/116/thumb-1920-1167330.jpg"
+				/>
+			</CategoryType>
 		</div>
 	);
 }

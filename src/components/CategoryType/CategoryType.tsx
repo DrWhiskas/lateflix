@@ -1,6 +1,16 @@
-import React from "react";
+import React from 'react';
 import './categoryType.css';
 
-export default function CategoryType(){
-    
+interface CategoryTypeProps {
+	name?: string;
+	children?: React.ReactNode;
+}
+
+export default function CategoryType({ ...props }: CategoryTypeProps) {
+	return (
+		<div className="category-type">
+			<h2 className="category-type__title">{props.name}</h2>
+			<div className="content-cards">{props.children}</div>
+		</div>
+	);
 }
